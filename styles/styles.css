@@ -1,19 +1,11 @@
 
   *{  box-sizing: border-box;}
 
-  h1 {font: arial bold;
-      font-size: 40px;}
-
-  h2 {font: arial bold;
-      font-size: 17;}
-
-  section {font-size: 17px;
-        font: arial;
+  h1 {font: bold 40px Arial, sans-serif;}
+  h2 {font: bold 24px arial;}
+  section {font: 17px arial;
       padding: 0% 5% 0% 5%;
       color: #444444;}
-
- .adress {font: arial bold;
-    font-size: 27;}
 
         header {
          float: right;
@@ -21,31 +13,26 @@
          height: 10%;
          color: white;
          padding: 2% 5% 2% 5%;
-         margin: 0% 0% 5% 0%;
+         margin: 0% 0% 2% 0%;
          background: #03a3df;
-
          }
 
              .navclass{
              float: right;
              color: white;
-             font-size: 1rem;
              font-weight: bold;
-             font: arial;
+             font: 1rem arial;
              padding: .5rem;
              text-decoration: none;
              }
 
 
-  .logo {
-    align:left;
-        width: 15%;
-}
+  .logo {width: 15%;}
 
 .indexsection{
   float:left;
   width: 45%;
-}
+   }
 
 .indexaside{
   float: right;
@@ -68,9 +55,12 @@
 
 
 
-.video{
-  align: center;
-}
+  .video{
+    clear: both;
+    margin: 10% 15% 5% 15%;
+    text-align: center;
+  }
+
 .servicesection{
   clear: both;
 }
@@ -121,23 +111,23 @@
         text-align: center;
       }
 
+      address {font: bold 1.2rem arial;
+                text-align: center;
+                padding: 1% 15% 1% 5%;}
+
   footer{
   clear: both;
   background-image: url(../images/footerImage.jpg);
   color: white;
-  font-size: 1rem;
-  font: arial;
+  font: 1rem arial;
   width: 100%;
   padding: 5% 5% 3% 5%;
-
   text-align:left;
   }
 
   .footernav{
-  size: 25%;
+  width: 25%;
   color: white;
-  font: arial;
-  font-weight: bold;
-  font-size: 1rem;
+  font: bold 1rem arial;
   text-decoration: none;
   }
