@@ -1,5 +1,21 @@
 
   *{  box-sizing: border-box;}
+  .hidden {
+          position: relative;
+          left: -10000px;
+          top: auto;
+        }
+.hidden:focus {
+  left: 0;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
   h1 {font: bold 40px Arial, sans-serif;}
   h2 {font: bold 24px arial;}
@@ -14,7 +30,7 @@
          color: white;
          padding: 2% 5% 2% 5%;
          margin: 0% 0% 2% 0%;
-         background: #03a3df;
+         background: #1b447f;
          }
 
              .navclass{
@@ -34,6 +50,10 @@
   width: 45%;
    }
 
+.grid-item:hover, .grid-item-service:hover {
+  transform: scale(1.25);
+  }
+
 .indexaside{
   float: right;
   width: 45%;}
@@ -42,7 +62,7 @@
   width: 100%;
   color: white;
   border: 2.5px solid #ecb722;
-  background: #03a3df;
+  background: #1b447f;
 }
 .grid-container {
   display:grid;
